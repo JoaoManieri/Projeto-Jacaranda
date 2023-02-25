@@ -1,16 +1,16 @@
 {
-    "dependencies": {
-        "electron": "^23.1.1"
-    },
-    "name": "projeto-jacaranda",
-    "description": "O projeto utiliza tecnologias web integradas para desktop.",
-    "version": "1.0.0",
-    "main": "main.js",
-    "devDependencies": {},
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "electron ."
-    },
-    "author": "HarielRB & JoaoManieri",
-    "license": "ISC"
+  "dependencies": {
+    "electron": "^23.1.1"
+  },
+  "name": "projeto-jacaranda",
+  "description": "O projeto utiliza tecnologias web integradas para desktop.",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "HarielRB & JoaoManieri",
+  "license": "ISC",
+  "devDependencies": {}
 }
