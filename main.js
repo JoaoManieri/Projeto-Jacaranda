@@ -8,5 +8,6 @@ app.on('ready', () => {
         width: 800,
         height: 600
     });
+    console.log("open window")
     mainWindow.loadURL(`file://${__dirname}/src/index.html`);
 });
