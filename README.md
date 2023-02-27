@@ -18,16 +18,17 @@ isso deve retornar a versão instalada
 
 Nota: Se não funcionar experimente reiniciar computador
 
+Inicie seu projeto
+
+```
+$ npm init 
+```
+
 ## Instalando Electron
 
 para indtalar o Electron  basta rodar o comando:
 ```
-$ npm install electron --save -dev 
-```
-Inicie seu projeto
-
-```
-$ npm intit 
+$ npm install electron --save 
 ```
 
 Para rodar a janela principal, basta rodar o comando:

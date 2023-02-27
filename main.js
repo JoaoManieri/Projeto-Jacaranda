@@ -7,7 +7,9 @@ app.on('ready', () => {
         width: 800,
         height: 600,
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: true,
+            enableRemoteModule: true,
+            contextIsolation: false,
         }
     });
     console.log("open window")
@@ -23,7 +25,9 @@ ipcMain.on('abrir-janela-sobre', () => {
         width: 300,
         height: 200,
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: true,
+            enableRemoteModule: true,
+            contextIsolation: false,
         }
     });
     infoWindow.loadURL(`file://${__dirname}/src/app/info.html`);
